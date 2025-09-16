@@ -64,15 +64,16 @@ const productData: Product[] = [
     image: "/images/white-chocolate-cookies.jpg",
     stock: 95,
   },
-  {
+  {                                                                     
     _id: "7",
-    name: "White Chocolate Cookies",
-    description: "Crispy cookies with chunks of creamy white chocolate.",
-    category: "Cookies",
-    price: 6,
-    image: "/images/white-chocolate-cookies.jpg",
-    stock: 95,
+    name: "Chocolate Slab",
+    description: "Bona Slab.",
+    category: "Chocolate Slab",
+    price: 580,
+    image: "https://drive.google.com/file/d/1FsbizR79hOj-iq6qH3yT9nu7uJgPc8xe/view?usp=sharing",
+    stock: 100,   
   },
+  
 ];
 
 export default productData;
