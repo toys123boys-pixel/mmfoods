@@ -67,7 +67,7 @@ const productData: Product[] = [
   {                                                                     
     _id: "7",
     name: "Chocolate Slab",
-    description: "Bona Slab.",
+    description: "Bona Slab 1Kg and 2Kg.",
     category: "Chocolate Slab",
     price: 580,
     image: "https://drive.google.com/file/d/1FsbizR79hOj-iq6qH3yT9nu7uJgPc8xe/view?usp=sharing",
