@@ -16,7 +16,7 @@ const productData: Product[] = [
     description: "Sprinkles 100g and 1Kg.",
     category: "Sprinkles",
     price: 150,
-    image: "https://drive.google.com/file/d/1EtbXd--9MKsFO80isJ3S493EOipGkwBC/view?usp=sharing",
+    image: "https://drive.google.com/file/d/1XekO-0zNmk1wT0PZUa6rHzjCT8rv4-yJ/view?usp=sharing",
     stock: 120,
   },
   {
