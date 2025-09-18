@@ -49,7 +49,7 @@ const productData: Product[] = [
   {
     _id: "5", 
     name: "Cocoa Powder",            
-    description: "POLAC Cocoa Powder 25Kg .",
+    description: "POLAC Cocoa Powder 25Kg.",
     category: "Cocoa Powder",
     price: 27500,
     image: "https://drive.google.com/file/d/10B1WMroKpDHDXJ0lJY9mEKQ9J4toVD4Q/view?usp=sharing",
@@ -57,25 +57,12 @@ const productData: Product[] = [
   },                   
   {
     _id: "6",
-name: "Cocoa Powder",            
-    description: "POLAC Cocoa Powder 25Kg .",
+    name: "Chocolate Slab",        
+    description: "Bona Slab 1Kg and 2Kg.",
     category: "Cocoa Powder",
-    price: 27500,
-    image: "https://drive.google.com/file/d/10B1WMroKpDHDXJ0lJY9mEKQ9J4toVD4Q/view?usp=sharing",
+    price: 580,
+    image: "https://drive.google.com/file/d/1d9Cck_z7g-IF02Avf_DWUbsOj2hnWI-p/view?usp=sharing",
     stock: 300,
   },
-  { 
-
-
-
-
-    
-  },
-  {                 
-
-
-
-
-    
 ];
 export default productData;
