@@ -25,7 +25,7 @@ const productData: Product[] = [
     description: "Non Pearls 100g",
     category: "Non Pearls",
     price: 150,
-    image: "https://drive.google.com/file/d/1TC9kOr6HipYbZhflj4VKyrCzw2d6mhLo/view?usp=sharing",
+    image: "https://drive.google.com/file/d/1-BDf8ms8iKgw8hyT5WK1bStr34f9uAoZ/view?usp=sharing",
     stock: 120,
   },
   {
