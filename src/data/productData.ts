@@ -70,7 +70,7 @@ const productData: Product[] = [
     description: "Bona Slab 1Kg and 2Kg.",
     category: "Chocolate Slab",
     price: 580,
-    image: "https://drive.google.com/file/d/1FsbizR79hOj-iq6qH3yT9nu7uJgPc8xe/view?usp=sharing",
+    image: "https://drive.google.com/file/d/1-hfv3BaqkkuWi51JAB5aUte0ctUgDu0f/view?usp=sharing",
     stock: 100,   
   },
   
