@@ -57,12 +57,12 @@ const productData: Product[] = [
   },
   {
     _id: "6",
-    name: "White Chocolate Cookies",
-    description: "Crispy cookies with chunks of creamy white chocolate.",
-    category: "Cookies",
-    price: 6,
-    image: "https://drive.google.com/file/d/1XEg0H8plRHIr4eeOVjrO3vQUk_TDsHA4/view?usp=sharing",
-    stock: 95,
+    name: "Dream Cake Box",
+    description: "Dream Cake Box 4.4 Inch and 5.5 Inch .",
+    category: "Dream Cake Box",
+    price: 210,
+    image: "https://drive.google.com/file/d/1iIErn3dxvIq5RbpvMp9BUL-oNahYnsxi/view?usp=sharing",
+    stock: 150,
   },
   {                                                                     
     _id: "7",
