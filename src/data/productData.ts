@@ -47,32 +47,35 @@ const productData: Product[] = [
     stock: 199,
   },
   {
-    _id: "5",
-    name: "Cocoa Powder",
+    _id: "5", 
+    name: "Cocoa Powder",            
+    description: "POLAC Cocoa Powder 25Kg .",
+    category: "Cocoa Powder",
+    price: 27500,
+    image: "https://drive.google.com/file/d/10B1WMroKpDHDXJ0lJY9mEKQ9J4toVD4Q/view?usp=sharing",
+    stock: 300,
+  },                   
+  {
+    _id: "6",
+name: "Cocoa Powder",            
     description: "POLAC Cocoa Powder 25Kg .",
     category: "Cocoa Powder",
     price: 27500,
     image: "https://drive.google.com/file/d/10B1WMroKpDHDXJ0lJY9mEKQ9J4toVD4Q/view?usp=sharing",
     stock: 300,
   },
-  {
-    _id: "6",
-    name: "Dream Cake Box",
-    description: "Dream Cake Box 4.4 Inch and 5.5 Inch .",
-    category: "Dream Cake Box",
-    price: 210,
-    image: "https://drive.google.com/file/d/1iIErn3dxvIq5RbpvMp9BUL-oNahYnsxi/view?usp=sharing",
-    stock: 150,
+  { 
+
+
+
+
+    
   },
-  {                                                                     
-    _id: "7",
-    name: "Chocolate Slab",
-    description: "Bona Slab 1Kg and 2Kg.",
-    category: "Chocolate Slab",
-    price: 580,
-    image: "https://drive.google.com/file/d/1d9Cck_z7g-IF02Avf_DWUbsOj2hnWI-p/view?usp=sharing",
-    stock: 100,   
-  },
-  
+  {                 
+
+
+
+
+    
 ];
 export default productData;
