@@ -61,7 +61,7 @@ const productData: Product[] = [
     description: "Crispy cookies with chunks of creamy white chocolate.",
     category: "Cookies",
     price: 6,
-    image: "/images/white-chocolate-cookies.jpg",
+    image: "https://drive.google.com/file/d/1XEg0H8plRHIr4eeOVjrO3vQUk_TDsHA4/view?usp=sharing",
     stock: 95,
   },
   {                                                                     
