@@ -64,5 +64,14 @@ const productData: Product[] = [
     image: "https://drive.google.com/file/d/1d9Cck_z7g-IF02Avf_DWUbsOj2hnWI-p/view?usp=sharing",
     stock: 300,
   },
+  {
+ _id: "6",
+ name: "Chocolate Slab",
+ description: "Bona Slab 1Kg and 2Kg.",
+ category: "Cocoa Powder",
+ price: 580,
+ image: "https://drive.google.com/file/d/1d9Cck_z7g-IF02Avf_DWUbsOj2hnWI-p/view?usp=sharing",
+ stock: 300,
+},      
 ];
 export default productData;
