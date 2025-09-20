@@ -20,7 +20,7 @@ const offersData: Offer[] = [
       "All things",
     ],
     popular: true,
-    image: "https://drive.google.com/file/d/1os2sSOBuANJdMuxu6KNkcr6LbUPCOK2u/view?usp=sharing", // ✅ dummy package image
+    image: "https://drive.google.com/file/d/1os2sSOBuANJdMuxu6KNkcr6LbUPCOK2u/view?usp=sharing", 
   },
 ];
 export default offersData;
