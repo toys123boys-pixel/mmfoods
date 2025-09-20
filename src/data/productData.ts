@@ -25,7 +25,7 @@ const productData: Product[] = [
     category: "Non Pearls",
     price: 150,
     image: "https://drive.google.com/file/d/1-BDf8ms8iKgw8hyT5WK1bStr34f9uAoZ/view?usp=sharing",
-    stock: 120,
+    
   },
   {
     _id: "3",
@@ -34,7 +34,7 @@ const productData: Product[] = [
     category: "Evaporated Milk",
     price: 600,
     image: "https://drive.google.com/file/d/1pcYUd3IAtSb8fyDYR2gH9-OfLEXhL4yv/view?usp=sharing",
-    stock: 200,
+   
   },
   {
     _id: "4",
@@ -43,7 +43,7 @@ const productData: Product[] = [
     category: "Condensed Milk",
     price: 570,
     image: "https://drive.google.com/file/d/1JwSmtNho4RBLliShQB0PuK-HNdLiY0Sn/view?usp=sharing",
-    stock: 199,
+   
   },
   {
     _id: "5", 
@@ -52,7 +52,7 @@ const productData: Product[] = [
     category: "Cocoa Powder",
     price: 27500,
     image: "https://drive.google.com/file/d/10B1WMroKpDHDXJ0lJY9mEKQ9J4toVD4Q/view?usp=sharing",
-    stock: 300,
+    
   },                   
   {
     _id: "6",
@@ -61,7 +61,7 @@ const productData: Product[] = [
     category: "Chocolate Slab",
     price: 580,
     image: "https://drive.google.com/file/d/1d9Cck_z7g-IF02Avf_DWUbsOj2hnWI-p/view?usp=sharing",
-    stock: 300,
+   
   },
   {
  _id: "7",
@@ -70,7 +70,7 @@ const productData: Product[] = [
  category: "Chocolate Slab",
  price: 580,
  image: "https://drive.google.com/file/d/1d9Cck_z7g-IF02Avf_DWUbsOj2hnWI-p/view?usp=sharing",
- stock: 300,
+ 
 },      
 ];
 export default productData;
