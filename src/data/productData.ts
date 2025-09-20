@@ -25,7 +25,6 @@ const productData: Product[] = [
     category: "Non Pearls",
     price: 150,
     image: "https://drive.google.com/file/d/1-BDf8ms8iKgw8hyT5WK1bStr34f9uAoZ/view?usp=sharing",
-    
   },
   {
     _id: "3",
@@ -33,8 +32,7 @@ const productData: Product[] = [
     description: "Badshah Evaporated Milk 390 Grams Product of Malaysia.",
     category: "Evaporated Milk",
     price: 600,
-    image: "https://drive.google.com/file/d/1pcYUd3IAtSb8fyDYR2gH9-OfLEXhL4yv/view?usp=sharing",
-   
+    image: "https://drive.google.com/file/d/1pcYUd3IAtSb8fyDYR2gH9-OfLEXhL4yv/view?usp=sharing",   
   },
   {
     _id: "4",
@@ -42,8 +40,7 @@ const productData: Product[] = [
     description: "POLAC Condensed Milk 1kg Product of Malaysia.",
     category: "Condensed Milk",
     price: 570,
-    image: "https://drive.google.com/file/d/1JwSmtNho4RBLliShQB0PuK-HNdLiY0Sn/view?usp=sharing",
-   
+    image: "https://drive.google.com/file/d/1JwSmtNho4RBLliShQB0PuK-HNdLiY0Sn/view?usp=sharing",  
   },
   {
     _id: "5", 
@@ -51,8 +48,7 @@ const productData: Product[] = [
     description: "POLAC Cocoa Powder 25Kg.",
     category: "Cocoa Powder",
     price: 27500,
-    image: "https://drive.google.com/file/d/10B1WMroKpDHDXJ0lJY9mEKQ9J4toVD4Q/view?usp=sharing",
-    
+    image: "https://drive.google.com/file/d/10B1WMroKpDHDXJ0lJY9mEKQ9J4toVD4Q/view?usp=sharing",    
   },                   
   {
     _id: "6",
@@ -60,8 +56,7 @@ const productData: Product[] = [
     description: "Bona Slab 1Kg and 2Kg.",
     category: "Chocolate Slab",
     price: 580,
-    image: "https://drive.google.com/file/d/1d9Cck_z7g-IF02Avf_DWUbsOj2hnWI-p/view?usp=sharing",
-   
+    image: "https://drive.google.com/file/d/1d9Cck_z7g-IF02Avf_DWUbsOj2hnWI-p/view?usp=sharing"   
   },
   {
  _id: "7",
@@ -69,8 +64,7 @@ const productData: Product[] = [
  description: "Good Slab 1Kg and 2Kg.",
  category: "Chocolate Slab",
  price: 580,
- image: "https://drive.google.com/file/d/1d9Cck_z7g-IF02Avf_DWUbsOj2hnWI-p/view?usp=sharing",
- 
+ image: "https://drive.google.com/file/d/1zLuQmZ9Vuu8EUKBFonr8xfZvwil1R1-v/view?usp=sharing" 
 },      
 ];
 export default productData;
