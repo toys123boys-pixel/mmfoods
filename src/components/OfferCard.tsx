@@ -6,14 +6,18 @@ import { Button } from "../components/ui/button";
 import { getGoogleDriveImageCandidates, resolveImageUrl } from "../lib/utils";
 import { motion } from "framer-motion";
 
-const SmartImage: React.FC<{ src: string; alt: string; className?: string }> = ({ src, alt, className }) => {
+const SmartImage: React.FC<{ src: string; alt: string; className?: string }> = ({
+  src,
+  alt,
+  className,
+}) => {
   const candidates = getGoogleDriveImageCandidates(src);
   const [index, setIndex] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
   const current = resolveImageUrl(candidates[index] || src);
 
   return (
-    <div className="relative w-full h-40">
+    <div className="relative w-full h-64"> {/* Updated height */}
       {!isLoaded && (
         <div className="absolute inset-0 animate-pulse bg-amber-100 rounded-xl" />
       )}
@@ -22,7 +26,7 @@ const SmartImage: React.FC<{ src: string; alt: string; className?: string }> = (
         alt={alt}
         loading="lazy"
         referrerPolicy="no-referrer"
-        className={className}
+        className={`w-full h-64 object-cover ${className || ""}`} // Updated height
         onLoad={() => setIsLoaded(true)}
         onError={() => {
           if (index < candidates.length - 1) setIndex(index + 1);
@@ -31,6 +35,7 @@ const SmartImage: React.FC<{ src: string; alt: string; className?: string }> = (
     </div>
   );
 };
+
 import {
   Dialog,
   DialogContent,
@@ -51,66 +56,70 @@ const Offers: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {offersData.map((offer: Offer) => (
           <motion.div
+            key={offer.id}
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.4, ease: "easeOut" }}
           >
-          <Card
-            key={offer.id}
-            className={`border-2 ${
-              offer.popular ? "border-amber-600 shadow-lg" : "border-gray-200"
-            } hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5 rounded-2xl`}
-          >
-            <CardContent className="p-6 flex flex-col h-full">
-              {/* Offer Image */}
-              <div className="relative mb-4 rounded-xl overflow-hidden">
-                <SmartImage
-                  src={offer.image}
-                  alt={offer.title}
-                  className="w-full h-40 object-cover"
-                />
-                <div className="pointer-events-none absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/40 to-transparent" />
-                {offer.popular && (
-                  <div className="absolute top-3 right-3">
-                    <Badge className="bg-amber-600 text-white shadow">Popular</Badge>
-                  </div>
-                )}
-              </div>
+            <Card
+              className={`border-2 ${
+                offer.popular
+                  ? "border-amber-600 shadow-lg"
+                  : "border-gray-200"
+              } hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5 rounded-2xl`}
+            >
+              <CardContent className="p-6 flex flex-col h-full">
+                {/* Offer Image */}
+                <div className="relative mb-4 rounded-xl overflow-hidden">
+                  <SmartImage
+                    src={offer.image}
+                    alt={offer.title}
+                    className="w-full h-64 object-cover" // Match SmartImage height
+                  />
+                  <div className="pointer-events-none absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/40 to-transparent" />
+                  {offer.popular && (
+                    <div className="absolute top-3 right-3">
+                      <Badge className="bg-amber-600 text-white shadow">
+                        Popular
+                      </Badge>
+                    </div>
+                  )}
+                </div>
 
-              {/* Title + Badge */}
-              <div className="flex justify-between items-center mb-3">
-                <h3 className="text-xl font-semibold text-amber-900 line-clamp-1">
-                  {offer.title}
-                </h3>
-              </div>
+                {/* Title + Badge */}
+                <div className="flex justify-between items-center mb-3">
+                  <h3 className="text-xl font-semibold text-amber-900 line-clamp-1">
+                    {offer.title}
+                  </h3>
+                </div>
 
-              {/* Description */}
-              <p className="text-gray-600 mb-4">{offer.description}</p>
+                {/* Description */}
+                <p className="text-gray-600 mb-4">{offer.description}</p>
 
-              {/* Items */}
-              <ul className="list-disc list-inside text-gray-700 mb-4">
-                {offer.items.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
+                {/* Items */}
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  {offer.items.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
 
-              {/* Price */}
-              <div className="flex items-center justify-between mt-auto">
-                <p className="text-lg font-bold text-amber-800">
-                  {offer.price.toLocaleString()} PKR
-                </p>
-              </div>
+                {/* Price */}
+                <div className="flex items-center justify-between mt-auto">
+                  <p className="text-lg font-bold text-amber-800">
+                    {offer.price.toLocaleString()} PKR
+                  </p>
+                </div>
 
-              {/* Buy Button */}
-              <Button
-                className="mt-auto bg-amber-600 hover:bg-amber-700 text-white"
-                onClick={() => setSelectedOffer(offer)}
-              >
-                Avail Offer
-              </Button>
-            </CardContent>
-          </Card>
+                {/* Buy Button */}
+                <Button
+                  className="mt-auto bg-amber-600 hover:bg-amber-700 text-white"
+                  onClick={() => setSelectedOffer(offer)}
+                >
+                  Avail Offer
+                </Button>
+              </CardContent>
+            </Card>
           </motion.div>
         ))}
       </div>
