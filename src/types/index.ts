@@ -5,21 +5,20 @@ export interface Product {
   price: number;
   image: string;
   category: string;
-  stock: number;
   createdAt: string;
   updatedAt: string;
 }
 
 export interface CartItem {
   product: Product;
-  quantity: number;
+ 
 }
 
 export interface Order {
   _id: string;
   items: {
     product: Product;
-    quantity: number;
+
   }[];
   total: number;
   status: 'pending' | 'processing' | 'shipped' | 'delivered';
