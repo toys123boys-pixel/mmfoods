@@ -17,7 +17,7 @@ const SmartImage: React.FC<{ src: string; alt: string; className?: string }> = (
   const current = resolveImageUrl(candidates[index] || src);
 
   return (
-    <div className="relative w-full h-64"> {/* Updated height */}
+    <div className="relative w-full "> {/* Updated height */}
       {!isLoaded && (
         <div className="absolute inset-0 animate-pulse bg-amber-100 rounded-xl" />
       )}
