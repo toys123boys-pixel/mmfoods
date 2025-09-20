@@ -161,6 +161,14 @@ description: "Cake Gel 1Kg .",
 category: "Gel",
 price: 350,
 image: "https://drive.google.com/file/d/1I6bBtJWVg6-kNAWnqu9w7I5L1yo13XTe/view?usp=sharing"  
-},    
+}, 
+  {
+    _id: "20",
+    name: "Evaporated Milk20",
+    description: "Badshah Evaporated Milk 390 Grams Product of Malaysia.",
+    category: "Evaporated Milk",
+    price: 600,
+    image: "https://drive.google.com/file/d/1pcYUd3IAtSb8fyDYR2gH9-OfLEXhL4yv/view?usp=sharing",   
+  },
 ];
 export default productData;
