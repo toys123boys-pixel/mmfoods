@@ -17,7 +17,6 @@ const productData: Product[] = [
     category: "Sprinkles",
     price: 150,
     image: "https://drive.google.com/file/d/1XekO-0zNmk1wT0PZUa6rHzjCT8rv4-yJ/view?usp=sharing",
-    stock: Available,
   },
   {
     _id: "2",
