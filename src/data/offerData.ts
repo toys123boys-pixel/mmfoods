@@ -23,7 +23,7 @@ const offersData: Offer[] = [
     image: "https://drive.google.com/file/d/1os2sSOBuANJdMuxu6KNkcr6LbUPCOK2u/view?usp=sharing", 
   },
    {
-    id: 1,
+    id: 2,
     title: "5 September To 12 September",
     description: "Special Sale With Mystery Gifts.",
     price: 00,
@@ -36,7 +36,7 @@ const offersData: Offer[] = [
     image: "https://drive.google.com/file/d/1os2sSOBuANJdMuxu6KNkcr6LbUPCOK2u/view?usp=sharing", 
   },
      {
-    id: 1,
+    id: 3,
     title: "5 September To 12 September",
     description: "Special Sale With Mystery Gifts.",
     price: 00,
