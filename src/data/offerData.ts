@@ -13,7 +13,7 @@ const offersData: Offer[] = [
     id: 1,
     title: "5 September To 12 September",
     description: "Special Sale With Mystery Gifts.",
-    price: ,
+    price: 00,
     items: [
       "All Things",
       "All Things",
@@ -23,5 +23,4 @@ const offersData: Offer[] = [
     image: "https://drive.google.com/file/d/1os2sSOBuANJdMuxu6KNkcr6LbUPCOK2u/view?usp=sharing", // ✅ dummy package image
   },
 ];
-
 export default offersData;
