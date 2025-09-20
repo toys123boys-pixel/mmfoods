@@ -65,6 +65,102 @@ const productData: Product[] = [
  category: "Chocolate Slab",
  price: 580,
  image: "https://drive.google.com/file/d/1zLuQmZ9Vuu8EUKBFonr8xfZvwil1R1-v/view?usp=sharing" 
-},      
+}, 
+{    
+_id: "8",
+name: "Dream Cake Box",
+description: "Dream Cake Box 4.4 Inch and 5.5 Inch.",
+category: "Dream Cake Box",
+price: 210,
+image: "https://drive.google.com/file/d/1iIErn3dxvIq5RbpvMp9BUL-oNahYnsxi/view?usp=sharing"
+},
+{ 
+_id: "9",
+name: "Paper Cake Cups",
+description: "Paper Cake Cups in Different Colors 1 set of 100 Pcs.",
+category: "Paper Cake Cups",
+price: 2500,
+image: "https://drive.google.com/file/d/1t2iWHOMKFx4aNNvVTpgZQBe05BTtYnbK/view?usp=sharing"
+},
+{ 
+_id: "10",
+name: "Cake Gel",
+description: "Cake Gel 5Kg Mango and Stroberry.",
+category: "Gel",
+price: 1350,
+image: "https://drive.google.com/file/d/1Zu9ji_GkyH5RBJXfJllUQc0RGVQyi911/view?usp=sharing"  
+},
+{  
+_id: "11",
+name: "Chocolate Beans",
+description: "Chocolate Beans 1Kg and 100g.",
+category: "chocolate Beans",
+price: 1200,
+image: "https://drive.google.com/file/d/1gy8Fjn8EPjAcR-QJeboiiisoOH2f8WkQ/view?usp=sharing"  
+},
+{ 
+_id: "12", 
+name: "Yellow Mustard",  
+description: "FRENCHS CLASSIC YELLOW MUSTARD 226 GM.",
+category: "Yellow Mustard",
+price: 800,
+image: "https://drive.google.com/file/d/1HBzMrXlb9r0cuKxpeXHc0BQLdRFbqZJP/view?usp=sharing"  
+},
+{  
+_id: "13", 
+name: "Round Kangora Board",  
+description: "Round Kangora Board 3Pcs Set.",
+category: "Round Kangora Board",
+price: 400,
+image: "https://drive.google.com/file/d/1bykDgfxjloUJSQxNAjSvwwpuDbPktHpQ/view?usp=sharing"  
+},  
+{ 
+_id: "14", 
+name: "Chocolate Wafer Biscuit",  
+description: "Chocolate Wafer Biscuit Chocolate and Stroberry.",
+category: " Wafer Biscuit",
+price: 480,
+image: "https://drive.google.com/file/d/1EHy0SL7QVRTCkfJgiuLX9CtfSmRd_TYC/view?usp=sharing"  
+},  
+{ 
+_id: "15", 
+name: "Polac Cocktail",  
+description: "POLAC PINEAPPLE SLICES IN HEAVY SYRUP TIN 565 GM.",
+category: "Polac Cocktail",
+price: 500,
+image: "https://drive.google.com/file/d/1WJSqgNghQKGDQ5D4-CzWs7C0xGDGgEeJ/view?usp=sharing"  
+},  
+{  
+_id: "16", 
+name: "Chocolate Glazing Gel",  
+description: "Chocolate Glazing Gel 5Kg.",
+category: "Gel",
+price: 5600,
+image: "https://drive.google.com/file/d/1pu5CkiNCKEhaA2BhrClN_LhvtJ-LHvRe/view?usp=sharing"  
+},  
+{ 
+_id: "17", 
+name: "Cheese Cake Filling",  
+description: "Cheese Filling 500gm.",
+category: "Filling",
+price: 2500,
+image: "https://drive.google.com/file/d/1S68LnrDeQeJc-GkQU6Vgr1kHtTuYad4s/view?usp=sharing"  
+},  
+{ 
+_id: "18", 
+name: "Choco Wafer Creamy",  
+description: "Choco Wafer Creamy 500gm.",
+category: "Filling",
+price: 2450,
+image: "https://drive.google.com/file/d/1w1Zfez48OHGUvprnMflfdgBaVO6mUKCn/view?usp=sharing"  
+},  
+{ 
+_id: "19", 
+name: "Cake Gel",  
+description: "Cake Gel 1Kg .",
+category: "Gel",
+price: 350,
+image: "https://drive.google.com/file/d/1I6bBtJWVg6-kNAWnqu9w7I5L1yo13XTe/view?usp=sharing"  
+},    
 ];
 export default productData;
