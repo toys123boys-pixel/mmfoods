@@ -31,7 +31,7 @@ const productData: Product[] = [
     name: "Evaporated Milk",
     description: "Badshah Evaporated Milk 390 Grams Product of Malaysia.",
     category: "Evaporated Milk",
-    price: 600,
+    price: 610,
     image: "https://drive.google.com/file/d/1pcYUd3IAtSb8fyDYR2gH9-OfLEXhL4yv/view?usp=sharing",   
   },
   {
@@ -164,16 +164,16 @@ image: "https://drive.google.com/file/d/1I6bBtJWVg6-kNAWnqu9w7I5L1yo13XTe/view?u
 }, 
   {
     _id: "20",
-    name: "Evaporated Milk",
-    description: "Badshah Evaporated Milk 390 Grams Product of Malaysia.",
-    category: "Evaporated Milk",
-    price: 610,
-    image: "https://drive.google.com/file/d/1pcYUd3IAtSb8fyDYR2gH9-OfLEXhL4yv/view?usp=sharing",   
+    name: "Lime Zaiqa",
+    description: "Flavored Lime Zaiqa 400g.",
+    category: "Lime Zaiqa",
+    price: 850,
+    image: "https://drive.google.com/file/d/1ruAjSahLrKwkNLtggWj2K5s2Njxfv9qX/view?usp=sharing",   
   },
   {
   _id:  "21",
   name: "Confecty",
-description: "Confecty 1Kg Packing",
+description: "Confecty 1Kg Packing.",
  category: "Confecty",
 price: 660,
 image: "https://drive.google.com/file/d/1xsyq2QKG3aEN5ImSt94VWKXFHM9OxrhC/view?usp=sharing",
@@ -181,7 +181,7 @@ image: "https://drive.google.com/file/d/1xsyq2QKG3aEN5ImSt94VWKXFHM9OxrhC/view?u
   {
    _id: "22",
    name: "Metallic PearL",
-   description: "Metallic Pearl 1Kg",
+   description: "Metallic Pearl 1Kg.",
    category: "Metallic Pearl",
    price: 2500,
    image: "https://drive.google.com/file/d/1RZAoHOqrNTcdYNNbDdbBpC3KwC5Kt_SA/view?usp=sharing",
@@ -189,7 +189,7 @@ image: "https://drive.google.com/file/d/1xsyq2QKG3aEN5ImSt94VWKXFHM9OxrhC/view?u
   {
   _id: "23",
   name: "Cocoa Powder",
-  description: "Cocoa Powder King 25Kg",
+  description: "Cocoa Powder King 25Kg.",
   category: "Cocoa Powder",
   price: 32500,
   image: "https://drive.google.com/file/d/1nuQVU1dOoqK5fs7lp5ZxrC9eGC_QGoxm/view?usp=sharing",
@@ -197,7 +197,7 @@ image: "https://drive.google.com/file/d/1xsyq2QKG3aEN5ImSt94VWKXFHM9OxrhC/view?u
   {
   _id: "24",
   name: "Metallic Pearl",
-  description: "Metallic Pearl Colors 1Kg",
+  description: "Metallic Pearl Colors 1Kg.",
   category: "Metallic Pearl",
   price: 2500,
   image: "https://drive.google.com/file/d/1s1qQhnUs8cQR4ocqbc9TJV7aAiDlt_Ka/view?usp=sharing",
